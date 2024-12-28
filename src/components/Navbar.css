@@ -1,0 +1,54 @@
+.navbar {
+  background: linear-gradient(45deg, #1b1f3a, #222a45, #2a344f, #313e5a, #394865, #425270, #4a5d7b); /* Dark blue gradient */
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: sticky; /* Makes the navbar sticky at the top */
+  top: 0;
+  z-index: 1000; /* Ensures it stays above other content */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 20px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar li:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Subtle light background on hover */
+  border-radius: 5px; /* Rounds the edges */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.navbar a:hover {
+  color: #f4f4f4;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column; /* Switch to vertical layout */
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navbar li {
+    margin: 10px 0; /* Adjust spacing for vertical items */
+  }
+}

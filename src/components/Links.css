@@ -1,0 +1,102 @@
+.links {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(45deg, #313e5a, #394865, #425270, #4a5d7b); /* Dark blue gradient */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    width: 80%;
+    position: relative; /* Set to relative for positioning icons outside */
+  }
+  
+  h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .links-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between email and phone buttons */
+    position: relative; /* To position the icons outside */
+  }
+  
+  .links-btn {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent button background */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative; /* Ensures button content stays inside */
+  }
+  
+  .links-btn a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Aligns icon and text */
+  }
+  
+  .links-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  
+  .links-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Space between icon and text */
+    position: absolute;
+    left: -25px; /* Moves the icon outside the button to the left */
+    top: 50%; /* Vertically center the icon */
+    transform: translateY(-50%); /* Centers the icon vertically */
+  }
+  
+  .social-links-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .social-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+  }
+  
+  .social-button a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  
+  .social-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    position: absolute;
+    left: -25px; /* Moves the icon outside the button to the left */
+    top: 50%; /* Vertically center the icon */
+    transform: translateY(-50%); /* Centers the icon vertically */
+  }
+  

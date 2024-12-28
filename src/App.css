@@ -1,0 +1,133 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('C:/Users/SRI DHARANI/Documents/Apps/Portfolio/portfolio/src/assets/images/bg - light blue.jpg'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #e0e0e0;
+}
+
+
+header {
+  margin-bottom: 20px;
+}
+
+.header {
+  position: relative;
+  background: linear-gradient(45deg, #1b1f3a, #222a45, #2a344f, #313e5a, #394865, #425270, #4a5d7b); /* Dark blue gradient */
+  color: white;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid #333;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(70, 70, 120, 0.8); /* Soft blue neon glow */
+}
+
+section {
+  padding: 30px;
+  margin: 20px auto;
+  background: linear-gradient(45deg, #1b1f3a, #222a45, #2a344f, #313e5a, #394865); /* Dark blue gradient for sections */
+  border-radius: 15px;
+  width: 80%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(70, 70, 120, 0.4); /* Soft blue neon glow on hover */
+}
+
+h2 {
+  color: #e0e0e0; /* Light gray for headings */
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #b0b0b0; /* Softer gray for list items */
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(45deg, #1b1f3a, #222a45, #2a344f, #313e5a, #394865); /* Dark blue gradient */
+  color: white;
+  margin-top: 40px;
+  transition: background 0.3s;
+}
+
+footer:hover {
+  background: linear-gradient(45deg, #394865, #313e5a, #2a344f, #222a45, #1b1f3a); /* Reverse dark blue gradient on hover */
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  section {
+    width: 95%;
+  }
+}
+
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects li {
+  margin-bottom: 20px;
+}
+
+.projects button {
+  background-color: #1b1f3a; /* Dark blue */
+  color: #e0e0e0; /* Light text */
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.projects button:hover {
+  background-color: #2a344f; /* Slightly lighter blue on hover */
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(70, 70, 120, 0.8); /* Soft blue neon glow on hover */
+}
+
